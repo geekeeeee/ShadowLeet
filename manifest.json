@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Dark Mode Converter",
+    "name": "Night_Leet :3",
     "version": "1.0",
-    "description": "Convert web pages into dark mode.",
+    "description": "Convert leetcode contenst into dark mode.",
     "permissions": ["activeTab", "tabs", "storage"],
     "icons": {
       "16": "icons/icon16.png",

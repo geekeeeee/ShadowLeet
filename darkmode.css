@@ -1,26 +1,45 @@
 /* Sample CSS for Dark Mode */
+html {
+  background-color: #282828 !important;
+}
 .contest-base, .callout, #navbar-root,#footer-root, #navbar-container, #leetcode-navbar, .root__23T_, .container__2AdV, .constrained-width__3N0d, .main__26VS{
   background-color: #282828 !important ;
   color: #9e9e9e !important ;
 }
-.callout, .callout-default, .content-wrapper, pre{
+.callout, .callout-default, .content-wrapper, pre:not(.CodeMirror-line), .panel *{
   background-color: #282828 !important;
   color: #9e9e9e !important;
+  border: none !important;
+}
+.hover-panel {
+  background-color: #282828 !important;
+  color: #9e9e9e !important;
+  border: 0.5px solid rgb(154, 154, 154) !important;
 }
 
-body, body*, body:not(.virtual-btn), .contest-detail-base:nth-child(2) {
+
+body:not(.virtual-btn, .CodeMirror-line, btn), .contest-detail-base:nth-child(2){
   background-color: #282828 !important; /* Default background color */
   color: #9e9e9e !important; /* Default text color */
 }
 
-a:not(.contest-discuss-link, .virtual-btn), .copyright__Ak6x ,.nav-items__1KWV, h1, h2, h3, h4, h5, p, text-300{
+a:not(.contest-discuss-link, .virtual-btn, .btn), .copyright__Ak6x ,.nav-items__1KWV, h1, h2, h3, h4, h5, p, text-300{
   color: #9e9e9e !important; 
 }
-
+::marker{
+  background: #ffe5e5b2 !important;
+}
 .contest-discuss-link, .virtual-btn{
   color: #353535 !important; 
 }
 
 .virtual-btn { 
   color: #ffffff !important; 
+}
+.contest-question-info, .list-group-item, .panel * {
+  background-color: #282828 !important;
+  color: white !important; /* Default background color */
+}
+strong{
+  color: #cc7013ed !important;
 }
