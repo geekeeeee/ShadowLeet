@@ -1,6 +1,22 @@
 /* Sample CSS for Dark Mode */
-body {
-    background-color: #1e1e1e !important;
-    color: #ffffff !important;
-  }
-  
+.contest-base, .callout, #navbar-root,#footer-root, #navbar-container, #leetcode-navbar, .root__23T_, .container__2AdV, .constrained-width__3N0d, .main__26VS{
+  background-color: #282828;
+  color: #9e9e9e;
+}
+.callout, .callout-default{
+  background-color: #282828;
+  color: #9e9e9e;
+}
+
+body, body*, body:not(button) {
+  background-color: #282828; /* Default background color */
+  color: #9e9e9e; /* Default text color */
+}
+
+a:not(.contest-discuss-link), .copyright__Ak6x ,.nav-items__1KWV, h1, h2, h3, h4, h5, p, text-300{
+  color: #9e9e9e;
+}
+
+.contest-discuss-link, .virtual-btn{
+  color: #353535;
+}
