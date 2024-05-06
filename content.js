@@ -1,1 +1,1 @@
-chrome.runtime.sendMessage({todo: "showPageAction"});
+if(toggle)chrome.runtime.sendMessage({todo: "showPageAction"});

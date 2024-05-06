@@ -1,22 +1,26 @@
 /* Sample CSS for Dark Mode */
 .contest-base, .callout, #navbar-root,#footer-root, #navbar-container, #leetcode-navbar, .root__23T_, .container__2AdV, .constrained-width__3N0d, .main__26VS{
-  background-color: #282828;
-  color: #9e9e9e;
+  background-color: #282828 !important ;
+  color: #9e9e9e !important ;
 }
-.callout, .callout-default{
-  background-color: #282828;
-  color: #9e9e9e;
-}
-
-body, body*, body:not(button) {
-  background-color: #282828; /* Default background color */
-  color: #9e9e9e; /* Default text color */
+.callout, .callout-default, .content-wrapper, pre{
+  background-color: #282828 !important;
+  color: #9e9e9e !important;
 }
 
-a:not(.contest-discuss-link), .copyright__Ak6x ,.nav-items__1KWV, h1, h2, h3, h4, h5, p, text-300{
-  color: #9e9e9e;
+body, body*, body:not(.virtual-btn), .contest-detail-base:nth-child(2) {
+  background-color: #282828 !important; /* Default background color */
+  color: #9e9e9e !important; /* Default text color */
+}
+
+a:not(.contest-discuss-link, .virtual-btn), .copyright__Ak6x ,.nav-items__1KWV, h1, h2, h3, h4, h5, p, text-300{
+  color: #9e9e9e !important; 
 }
 
 .contest-discuss-link, .virtual-btn{
-  color: #353535;
+  color: #353535 !important; 
+}
+
+.virtual-btn { 
+  color: #ffffff !important; 
 }
