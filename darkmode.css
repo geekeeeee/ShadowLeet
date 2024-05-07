@@ -51,26 +51,34 @@ a:not(.contest-discuss-link , .contest-detail-info,  .virtual-btn, .btn), .copyr
 strong{
   color: #fac31dbf !important;
 }
+code{
+  background-color: transparent !important;
+  color: #c7254e !important;
+}
+.contest-dynamic-layout-button__2GV_{
+  background-color: transparent !important;
+  border: none !important;
+  color: #FF9933 !important;
+}
 .CodeMirror{
   border: 0.5px solid grey !important;
 }
-
-.ReactCodeMirror * :not(.cm-number, .cm-type, .cm-operator, .cm-variable, .cm-def, .cm-keyword, .cm-comment){
+.ReactCodeMirror * :not(.cm-number, .cm-type, .cm-operator, .cm-variable,.cm-meta, .cm-def, .cm-keyword, .cm-comment){
   background-color: #282828 !important;
-  color:#d4d4d4 !important;
+  color:#d4d4d4dd !important;
 }
 
 .cm-number{
   background-color: #282828 !important;
   color: #b5cea8 !important;
 }
-.cm-type{
+.cm-type, .cm-meta{
   background-color: #282828 !important;
   color: #569CD6 !important;
 }
 .cm-operator, .cm-variable{
   background-color: #282828 !important;
-  color: #d4d4d4 !important;
+  color: #d4d4d4dd !important;
 }
 .cm-def{
   background-color: #282828 !important;
