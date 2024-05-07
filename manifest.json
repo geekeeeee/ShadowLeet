@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Night_Leet :3",
+    "name": "ShadowLeet",
     "version": "1.0",
     "description": "Convert leetcode contenst into dark mode.",
     "permissions": ["tabs", "activeTab"],
