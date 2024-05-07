@@ -49,7 +49,7 @@ a:not(.contest-discuss-link , .contest-detail-info,  .virtual-btn, .btn), .copyr
   
 }
 strong{
-  color: #fac31dbf !important;
+  color: #ff9933ca!important;
 }
 code{
   background-color: transparent !important;
@@ -91,4 +91,7 @@ code{
 .cm-comment{
   background-color: #282828 !important;
   color: #6a9955 !important;
+}
+path{
+  fill: #FF9933 !important;
 }
