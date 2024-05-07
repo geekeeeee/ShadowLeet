@@ -8,7 +8,7 @@ html {
   color: #fff !important; /* White text color */
 }
 
-.contest-base, .callout, #navbar-root,#footer-root, #navbar-container, #leetcode-navbar, .root__23T_, .container__2AdV, .constrained-width__3N0d, .main__26VS{
+.contest-base, .callout, #headlessui-menu-button-1, #navbar-root,#footer-root, #navbar-container, #leetcode-navbar, .root__23T_, .container__2AdV, .constrained-width__3N0d, .main__26VS{
   background-color: #282828 !important ;
   color: #9e9e9e !important ;
 }
@@ -49,7 +49,7 @@ a:not(.contest-discuss-link , .contest-detail-info,  .virtual-btn, .btn), .copyr
   
 }
 strong{
-  color: #fac31d !important;
+  color: #fac31dbf !important;
 }
 .CodeMirror{
   border: 0.5px solid grey !important;
