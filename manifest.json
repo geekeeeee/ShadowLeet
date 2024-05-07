@@ -3,7 +3,7 @@
     "name": "Night_Leet :3",
     "version": "1.0",
     "description": "Convert leetcode contenst into dark mode.",
-    "permissions": ["activeTab", "tabs", "storage"],
+    "permissions": ["tabs", "activeTab"],
     "icons": {
       "16": "icons/icon16.png",
       "64": "icons/icon64.png",
@@ -23,8 +23,7 @@
       {
         "matches": ["https://leetcode.com/contest/*"],
         "js": ["content.js", "jq.min"],
-        "css": ["darkmode.css"],
-        "run_at": "document_idle"
+        "css": ["darkmode.css"]
       }
     ]
   }
