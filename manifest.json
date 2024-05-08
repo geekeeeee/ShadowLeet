@@ -2,17 +2,15 @@
     "manifest_version": 3,
     "name": "ShadowLeet",
     "version": "1.0",
-    "description": "Convert leetcode contenst into dark mode.",
+    "description": "Convert leetcode contests into dark mode.",
     "permissions": ["tabs", "activeTab"],
     "icons": {
-      "16": "icons/icon16.png",
-      "64": "icons/icon64.png",
-      "128": "icons/icon128.png"
+      "48": "icons/icon48.png"
     },
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "icons/icon16.png"
+        "48": "icons/icon48.png"
       }
     },
     "background": {
