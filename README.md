@@ -8,11 +8,10 @@ ShadowLeet is a Chrome extension that transforms the LeetCode contest page into 
 - **Enhanced Visibility:** Improves readability and reduces glare, enhancing focus on solving coding challenges.
 
 ## Installation
-1. **Download Extension:** Download the extension package from the Chrome Web Store.
-2. **Install Extension:** Open Chrome browser and navigate to [chrome://extensions/](chrome://extensions/).
-3. **Enable Developer Mode:** Toggle the Developer mode switch in the top right corner.
-4. **Load Extension:** Click on the "Load unpacked" button and select the downloaded extension package folder.
-5. **Activate Extension:** Once loaded, the LeetCode contest page will automatically switch to dark mode.
+1. **Download Extension:** Download the zip file from git hub and unzip into desired location.
+2. **Enable Developer Mode:** Toggle the Developer mode switch in the top right corner and go to Extensions.
+3. **Load Extension:** Click on the "Load unpacked" button and select the unzipped folder.
+4. **Activate Extension:** Once loaded, reload the Contest page, it will automatically switch to dark mode.
 
 ## Usage
 1. **Navigate to LeetCode Contest Page:** Open your preferred browser and go to the LeetCode contest page.
